@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Alhani For Lighting | عالم الإضاءة</title>
+  <meta name="description" content="اكتشف عالم الإضاءة مع Alhani For Lighting في عمّان، شارع وصفي التل.">
+
+  <!-- Website tab logo -->
+  <link rel="icon" type="image/jpeg" href="Images/image.jpg">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- GSAP animations -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+  <div class="ambient-light light-one"></div>
+  <div class="ambient-light light-two"></div>
+
+  <!-- Navigation -->
+  <header class="header" id="top">
+    <nav class="navbar container">
+      <a href="#top" class="brand">
+        <span class="brand-icon">A</span>
+        <span class="brand-name">
+          <strong>ALHANI</strong>
+          <small>FOR LIGHTING</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="فتح القائمة" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#top">الرئيسية</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#gallery">معرض الإضاءة</a></li>
+        <li><a href="#videos">فيديوهات</a></li>
+        <li><a href="#contact" class="nav-cta">تواصل معنا ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-content">
+        <div class="eyebrow hero-item">
+          <span class="status-dot"></span>
+          ALHANI FOR LIGHTING · AMMAN, JORDAN
+        </div>
+
+        <h1 class="hero-title hero-item">
+          مش مجرد ضوء،<br>
+          <span>هذا فنّ الإضاءة.</span>
+        </h1>
+
+        <p class="hero-description hero-item">
+          اكتشف عالمًا من التصاميم المضيئة التي تمنح مساحتك
+          شخصية مختلفة، وتحوّل كل زاوية إلى تجربة مميزة.
+        </p>
+
+        <div class="hero-actions hero-item">
+          <a href="#gallery" class="button button-primary">
+            اكتشف مجموعتنا <span>↙</span>
+          </a>
+          <a href="#contact" class="button button-outline">
+            تواصل معنا
+          </a>
+        </div>
+
+        <div class="hero-location hero-item">
+          <span class="location-icon">⌖</span>
+          <span>عمّان، شارع وصفي التل، الأردن</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+
+        <div class="hero-image-card" id="heroImageCard">
+          <img src="Images/1.png" alt="تصميم إضاءة من Alhani For Lighting"
+            class="hero-image">
+
+          <div class="hero-image-overlay"></div>
+
+          <div class="hero-image-label">
+            <span>LIGHT UP YOUR WORLD</span>
+            <strong>Elegance in every detail.</strong>
+          </div>
+
+          <div class="floating-tag tag-top">
+            <span class="tag-icon">✦</span>
+            <span>تصاميم مميزة</span>
+          </div>
+
+          <div class="floating-tag tag-bottom">
+            <span class="tag-dot"></span>
+            <span>LIGHTING YOUR WAY</span>
+          </div>
+        </div>
+
+        <div class="hero-side-text">ILLUMINATE YOUR SPACE</div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span></span>
+        اكتشف المزيد
+      </a>
+    </section>
+
+    <!-- Brand statement -->
+    <section class="statement-section">
+      <div class="container statement-inner">
+        <span class="section-kicker">LIGHT IS AN EXPERIENCE</span>
+        <h2>
+          التفاصيل تصنع الفرق،<br>
+          <span>والإضاءة تصنع الأجواء.</span>
+        </h2>
+        <p>
+          لأن اختيار الإضاءة المناسبة هو بداية المساحة التي تحلم بها.
+        </p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about-section section-padding container" id="about">
+      <div class="about-visual reveal">
+        <div class="about-image-frame">
+          <img src="Images/2.png"
+            alt="من تصاميم الإضاءة لدى الهاني">
+        </div>
+        <div class="about-number">
+          <span>01</span>
+          <span>LIGHT · DESIGN · STYLE</span>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <span class="section-kicker">ABOUT ALHANI</span>
+        <h2 class="section-title">
+          أضف لمستك،<br>
+          <span>ودع الضوء يتكلم.</span>
+        </h2>
+        <p>
+          Alhani For Lighting هو متجر أدوات إضاءة في عمّان، الأردن.
+          اكتشف تشكيلتنا من خلال الصور والفيديوهات، واختر الإلهام
+          الذي يناسب ذوقك ومساحتك.
+        </p>
+
+        <div class="about-features">
+          <div class="feature">
+            <span class="feature-symbol">✧</span>
+            <div>
+              <strong>أناقة بالتفاصيل</strong>
+              <p>اكتشف تصاميم تضيف طابعًا مميزًا لمساحتك.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <span class="feature-symbol">◈</span>
+            <div>
+              <strong>إلهام لكل مساحة</strong>
+              <p>أفكار إضاءة للمنازل والمساحات المختلفة.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#contact" class="text-link">
+          تعرّف علينا أكثر <span>←</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Image gallery -->
+    <section class="gallery-section section-padding" id="gallery">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">OUR LIGHTING COLLECTION</span>
+            <h2 class="section-title">
+              اكتشف <span>عالم الإضاءة</span>
+            </h2>
+            <p>تصفّح الصور واستلهم أفكارًا جديدة لمساحتك.</p>
+          </div>
+
+          <div class="gallery-counter">
+            <span id="galleryCount">16</span>
+            <span>تصميمًا</span>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+
+          <article class="gallery-card reveal">
+            <img src="Images/1.png" alt="تصميم إضاءة 1" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>01 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/2.png" alt="تصميم إضاءة 2" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>02 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/3.png" alt="تصميم إضاءة 3" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>03 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/4.png" alt="تصميم إضاءة 4" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>04 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/5.png" alt="تصميم إضاءة 5" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>05 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/6.png" alt="تصميم إضاءة 6" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>06 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/7.png" alt="تصميم إضاءة 7" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>07 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/8.png" alt="تصميم إضاءة 8" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>08 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/9.png" alt="تصميم إضاءة 9" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>09 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/10.png" alt="تصميم إضاءة 10" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>10 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/11.png" alt="تصميم إضاءة 11" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>11 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/12.png" alt="تصميم إضاءة 12" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>12 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/13.png" alt="تصميم إضاءة 13" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>13 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/14.png" alt="تصميم إضاءة 14" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>14 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/15.png" alt="تصميم إضاءة 15" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>15 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal">
+            <img src="Images/16.png" alt="تصميم إضاءة 16" loading="lazy">
+            <div class="card-overlay">
+              <span>ALHANI COLLECTION</span>
+              <strong>16 / إلهام الإضاءة</strong>
+              <button class="view-image" aria-label="عرض الصورة">↗</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Videos -->
+    <section class="videos-section section-padding container" id="videos">
+      <div class="section-heading reveal">
+        <div>
+          <span class="section-kicker">WATCH THE DETAILS</span>
+          <h2 class="section-title">شاهد الإضاءة <span>عن قرب</span></h2>
+          <p>اكتشف المزيد من خلال فيديوهاتنا.</p>
+        </div>
+      </div>
+
+      <div class="videos-grid">
+        <article class="video-card reveal">
+          <video controls playsinline preload="metadata"
+            poster="Images/1.png">
+            <source src="Videos/1.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+          <div class="video-caption">
+            <span>01</span>
+            <strong>من عالم الهاني للإضاءة</strong>
+          </div>
+        </article>
+
+        <article class="video-card reveal">
+          <video controls playsinline preload="metadata"
+            poster="Images/2.png">
+            <source src="Videos/2.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+          <div class="video-caption">
+            <span>02</span>
+            <strong>تفاصيل تستحق المشاهدة</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container contact-box reveal">
+        <div class="contact-glow"></div>
+
+        <span class="section-kicker">LET'S CONNECT</span>
+        <h2>خلّينا نختار <span>الضوء المناسب.</span></h2>
+        <p>
+          تواصل مع Alhani For Lighting، وتعرّف على خيارات الإضاءة
+          المتاحة في متجرنا في عمّان.
+        </p>
+
+        <div class="contact-actions">
+          <a class="button button-primary"
+            href="https://www.instagram.com/alhanilighting/"
+            target="_blank" rel="noopener noreferrer">
+            تابعنا على Instagram ↗
+          </a>
+
+          <a class="button button-outline"
+            href="https://www.google.com/maps/search/?api=1&query=Alhani+For+Lighting+Wasfi+Al-Tall+Amman+Jordan"
+            target="_blank" rel="noopener noreferrer">
+            موقعنا على الخريطة ⌖
+          </a>
+        </div>
+
+        <div class="contact-address">
+          <span>⌖</span>
+          Al Hani, Wasfi Al-Tall Street 222, Amman, Jordan
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#top" class="brand footer-brand">
+        <span class="brand-icon">A</span>
+        <span class="brand-name">
+          <strong>ALHANI</strong>
+          <small>FOR LIGHTING</small>
+        </span>
+      </a>
+
+      <p>الإضاءة التي تصنع الفرق.</p>
+
+      <a href="https://www.instagram.com/alhanilighting/"
+        target="_blank" rel="noopener noreferrer">
+        Instagram ↗
+      </a>
+
+      <span class="copyright">
+        © <span id="currentYear"></span> Alhani For Lighting
+      </span>
+    </div>
+  </footer>
+
+  <!-- Image lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose"
+      aria-label="إغلاق الصورة">×</button>
+    <button class="lightbox-prev" id="lightboxPrev"
+      aria-label="الصورة السابقة">‹</button>
+    <img src="" alt="صورة إضاءة مكبرة" id="lightboxImage">
+    <button class="lightbox-next" id="lightboxNext"
+      aria-label="الصورة التالية">›</button>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="JS/script.js"></script>
+</body>
+</html>
